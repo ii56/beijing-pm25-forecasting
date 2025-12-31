@@ -23,49 +23,6 @@ The goal of this project is not only high accuracy, but also **clear modeling de
 
 ---
 
-## Project Structure
-beijing_pm25_forecasting/
-│
-├── data/
-│   ├── raw/
-│   │   └── Dataset/
-│   │       └── PRSA2017_Data/
-│   │           ├── PRSA_Data_Aotizhongxin.csv
-│   │           ├── PRSA_Data_Dongsi.csv
-│   │           ├── PRSA_Data_Changping.csv
-│   │           └── ... (other monitoring stations)
-│   │
-│   └── processed/
-│       ├── X_train.csv
-│       ├── X_val.csv
-│       ├── X_test.csv
-│       ├── y_train.csv
-│       ├── y_val.csv
-│       └── y_test.csv
-│
-├── notebooks/
-│   ├── 01_data_loading.ipynb
-│   ├── 02_exploratory_data_analysis.ipynb
-│   ├── 03_data_cleaning.ipynb
-│   ├── 04_feature_engineering.ipynb
-│   ├── 05_train_test_split.ipynb
-│   ├── 06_baseline_models.ipynb
-│   ├── 07_tree_based_models.ipynb
-│   └── 08_lstm_model.ipynb
-│
-├── models/
-│   ├── random_forest_pm25.pkl
-│   ├── gradient_boosting_pm25.pkl
-│   └── (optional) other saved models
-│
-├── usage/
-│   |── long_term_projection.ipynb    
-│   |── predict_gui.py # Actual usage file to run model
-│   └── prep_for_usage.ipynb
-│
-├── README.md
-└── requirements.txt
-
 ## How to run the model
 Steps:
 1. Open the predict_gui.py
