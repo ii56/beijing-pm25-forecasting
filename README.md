@@ -144,6 +144,6 @@ https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data
 ---
 
 ## Author
-This project was developed as a machine learning project with an emphasis on **real-world relevance and professional standards** by Ibaan Ibrahim.
+This project was developed as a machine learning project with an emphasis on **real-world relevance** by Ibaan Ibrahim.
 Email: ibaanIbrahim123098@gmail.com
 
